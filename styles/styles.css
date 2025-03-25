@@ -14,9 +14,44 @@ body,
   background-color: #ffffff;
   padding-left: 125px;
   padding-right: 125px;
-  padding-top: 128px;
   font-weight: 400;
   letter-spacing: -0.03em;
+}
+
+.nav__container {
+  min-width: 1200px;
+  padding-top: 33px;
+  margin-bottom: 70.82px;
+}
+
+.link__logo {
+  display: inline-block;
+  padding-right: 538px;
+}
+
+.metrica__logo {
+  display: block;
+  width: 126.89px;
+  height: 21.42px;
+}
+
+.nav__links {
+  display: inline-block;
+}
+
+.nav__link {
+  padding-right: 60px;
+  text-decoration: none;
+  color: #121212;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.nav__link:nth-child(1) {
+  color: #121212;
+  opacity: 0.5;
+  text-decoration: underline;
 }
 
 h1 {
