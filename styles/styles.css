@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body,
 .btn,
 .all_samples {
@@ -52,6 +56,10 @@ body,
   color: #121212;
   opacity: 0.5;
   text-decoration: underline;
+}
+
+#projects_view {
+  scroll-margin-top: 15vh;
 }
 
 h1 {
