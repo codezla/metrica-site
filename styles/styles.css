@@ -13,7 +13,8 @@ body,
 
 .container,
 .services,
-.bedroom__section {
+.bedroom__container,
+.contacts__container {
   width: 1200px;
   margin: 0 auto;
   background-color: #ffffff;
@@ -192,7 +193,7 @@ h2 {
   padding-bottom: 0;
 }
 
-.bedroom__section {
+.bedroom__container {
   height: 717px;
   background-image: url("../resources/bedroom.png");
   background-repeat: no-repeat;
@@ -205,4 +206,49 @@ h2 {
   bottom: 60px;
   width: 443px;
   color: #ffffff;
+}
+
+.contacts__container {
+  height: 553px;
+}
+
+.contacts__text {
+  padding-top: 186px;
+  margin-bottom: 33px;
+}
+
+.contacts__text::before {
+  content: "";
+  display: block;
+  background-image: url("../resources/outline__phone.svg");
+  margin-bottom: 12px;
+  width: 24px;
+  height: 24px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.phone__number__contact,
+.mail__contact {
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.mail__contact {
+  padding-top: 30px;
+  padding-bottom: 9px;
+  opacity: 0.5;
+  display: inline-block;
+  position: relative;
+  border: none;
+}
+
+.mail__contact::after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  bottom: 0;
+  width: 98%;
+  height: 2px;
+  background-color: #121212;
 }
