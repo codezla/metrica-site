@@ -228,13 +228,15 @@ h2 {
   background-repeat: no-repeat;
 }
 
-.phone__number__contact,
-.mail__contact {
+.phone__number__contact__link,
+.mail__contact__link {
   font-size: 60px;
   line-height: 60px;
+  text-decoration: none;
+  color: #121212;
 }
 
-.mail__contact {
+.mail__contact__link {
   padding-top: 30px;
   padding-bottom: 9px;
   opacity: 0.5;
@@ -243,7 +245,7 @@ h2 {
   border: none;
 }
 
-.mail__contact::after {
+.mail__contact__link::after {
   content: "";
   position: absolute;
   left: 5px;
