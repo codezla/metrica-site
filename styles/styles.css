@@ -12,7 +12,8 @@ body,
 }
 
 .container,
-.services {
+.services,
+.bedroom__section {
   width: 1200px;
   margin: 0 auto;
   background-color: #ffffff;
@@ -124,7 +125,8 @@ h2 {
 }
 
 .project__sample__descript,
-.service__sample__descript {
+.service__sample__descript,
+.bedroom__descript {
   padding-bottom: 15px;
   font-size: 30px;
   font-weight: 400;
@@ -188,4 +190,19 @@ h2 {
 
 .service__sample__descript {
   padding-bottom: 0;
+}
+
+.bedroom__section {
+  height: 717px;
+  background-image: url("../resources/bedroom.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bedroom__descript {
+  position: absolute;
+  bottom: 60px;
+  width: 443px;
+  color: #ffffff;
 }
