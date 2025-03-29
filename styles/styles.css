@@ -45,7 +45,8 @@ body,
   display: inline-block;
 }
 
-.nav__link {
+.nav__link,
+.footer__link {
   padding-right: 60px;
   text-decoration: none;
   color: #121212;
@@ -60,7 +61,8 @@ body,
   text-decoration: underline;
 }
 
-#projects_view {
+#projects_view,
+#aboutus_view {
   scroll-margin-top: 15vh;
 }
 
@@ -164,7 +166,8 @@ h2 {
   color: #ffffff;
 }
 
-.services {
+.services,
+.footer {
   padding-top: 0;
   background-color: #121212;
   color: #ffffff;
@@ -253,4 +256,38 @@ h2 {
   width: 98%;
   height: 2px;
   background-color: #121212;
+}
+
+.footer {
+  padding-bottom: 0px;
+  width: 100%;
+}
+
+.footer__links {
+  padding-top: 60px;
+  padding-bottom: 88px;
+  margin: 0 auto;
+  width: 472px;
+}
+
+.footer__link {
+  display: inline-block;
+  box-sizing: border-box;
+  padding-right: 55px;
+  color: #ffffff;
+}
+
+.footer__link:nth-child(1) {
+  opacity: 0.5;
+}
+
+.footer__link:nth-last-child(1) {
+  padding-right: 0px;
+}
+.footer__aboutus {
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 27px;
+  opacity: 0.5;
 }
