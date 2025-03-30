@@ -114,16 +114,20 @@ h2 {
 }
 
 .btn {
+  display: block;
   margin-bottom: 153px;
   width: 255px;
   height: 67px;
   border-radius: 5px;
+  border: #ad1818;
   color: #ffffff;
   background-color: #ad1818;
-  border: #ad1818;
-  cursor: pointer;
+  text-align: center;
+  line-height: 67px;
+  text-decoration: none;
   font-size: 20px;
   letter-spacing: -0.03em;
+  cursor: pointer;
 }
 
 .project__sample__inter {
@@ -152,19 +156,24 @@ h2 {
 }
 
 .all_samples {
-  margin-bottom: 150px;
+  display: block;
   height: 153px;
   width: 1150px;
-  font-size: 30px;
-  font-weight: 400;
-  line-height: 41px;
-  letter-spacing: -0.03em;
-  text-align: center;
-  color: #ad1818;
   border-radius: 5px;
   border: 1px solid #ad1818;
   background-color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 153px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  color: #ad1818;
+  text-decoration: none;
   cursor: pointer;
+}
+
+.container {
+  padding-bottom: 150px;
 }
 
 .all_samples:hover {
@@ -268,7 +277,7 @@ h2 {
 
 .footer {
   padding-bottom: 0px;
-  min-width: 1450px;
+  min-width: 1470px;
 }
 
 .footer__links {
