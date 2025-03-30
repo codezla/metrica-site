@@ -11,6 +11,14 @@ body,
   box-sizing: border-box;
 }
 
+h1,
+h2,
+a,
+p,
+div {
+  letter-spacing: -0.03em;
+}
+
 .container,
 .services,
 .bedroom__container,
@@ -18,7 +26,7 @@ body,
   width: 1200px;
   margin: 0 auto;
   background-color: #ffffff;
-  padding-left: 145px;
+  padding-left: 125px;
   padding-right: 125px;
   font-weight: 400;
 }
@@ -71,7 +79,6 @@ h1 {
   line-height: 60px;
   width: 1000px;
   margin-bottom: 28px;
-  letter-spacing: -0.03em;
 }
 
 .about {
@@ -92,13 +99,11 @@ h1 {
   padding-left: 40px;
   font-size: 20px;
   line-height: 26.7px;
-  letter-spacing: -0.03em;
 }
 
 h2 {
   font-size: 18px;
   margin-bottom: 34px;
-  letter-spacing: -0.03em;
 }
 
 .project__sample {
@@ -126,7 +131,6 @@ h2 {
   line-height: 67px;
   text-decoration: none;
   font-size: 20px;
-  letter-spacing: -0.03em;
   cursor: pointer;
 }
 
@@ -143,7 +147,6 @@ h2 {
   font-size: 30px;
   font-weight: 400;
   line-height: 38px;
-  letter-spacing: -0.03em;
 }
 
 .project__sample__link {
@@ -165,7 +168,6 @@ h2 {
   font-size: 30px;
   font-weight: 400;
   line-height: 153px;
-  letter-spacing: -0.03em;
   text-align: center;
   color: #ad1818;
   text-decoration: none;
@@ -252,7 +254,6 @@ h2 {
   line-height: 60px;
   text-decoration: none;
   color: #121212;
-  letter-spacing: -0.03em;
 }
 
 .mail__contact__link {
@@ -262,7 +263,6 @@ h2 {
   display: inline-block;
   position: relative;
   border: none;
-  letter-spacing: -0.03em;
 }
 
 .mail__contact__link::after {
@@ -307,5 +307,4 @@ h2 {
   font-size: 20px;
   line-height: 27px;
   opacity: 0.5;
-  letter-spacing: -0.03em;
 }
