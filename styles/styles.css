@@ -91,6 +91,7 @@ h1 {
   margin-bottom: 154px;
   width: 1150px;
   height: 471px;
+  background-position: 90%;
   position: relative;
   background-image: url("../resources/inter.png");
   background-repeat: no-repeat;
@@ -368,8 +369,8 @@ h2 {
   }
 
   .project__sample__inter {
-    /* display: block; */
     width: 100%;
+    object-fit: cover;
   }
 
   .project__sample__descript {
@@ -390,7 +391,7 @@ h2 {
 @media (max-width: 767px) {
   .nav__container {
     padding-left: 13px;
-    padding-right: 14px;
+    padding-right: 12px;
   }
 
   .nav__container h1 {
@@ -403,6 +404,8 @@ h2 {
   .about {
     height: 304px;
     margin-bottom: 80px;
+    background-image: url("../resources/inter__mobile.png");
+    background-position: 40%;
   }
 
   .about-text {
@@ -421,7 +424,7 @@ h2 {
 
   .container {
     padding-bottom: 80px;
-    padding-left: 12px;
+    padding-left: 13px;
     padding-right: 12px;
   }
 
@@ -450,7 +453,6 @@ h2 {
   .project__sample__inter {
     padding-bottom: 20px;
     height: 250px;
-    object-fit: cover;
   }
 
   .project__sample__descript {

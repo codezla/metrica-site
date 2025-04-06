@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Metrica Site</title>
+    <title>Метрика</title>
+    <link rel="icon" href="resources/metrica_favicon.png" type="image/png" />
 
     <link rel="stylesheet" href="styles/reset.css" />
 
@@ -58,10 +59,20 @@
 
         <ul class="projects">
           <li class="project__sample">
-            <img
-              src="resources/project__inter__1.png"
-              class="project__sample__inter"
-            />
+            <picture>
+              <source
+                media="(max-width: 767px)"
+                srcset="resources/project__inter__mobile__1.png"
+              />
+              <source
+                media="(max-width: 1199px)"
+                srcset="resources/project__inter__tablet__1.png"
+              />
+              <img
+                src="resources/project__inter__1.png"
+                class="project__sample__inter"
+              />
+            </picture>
             <p class="project__sample__descript">
               ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023
             </p>
@@ -69,10 +80,20 @@
           </li>
 
           <li class="project__sample">
-            <img
-              src="resources/project__inter__2.png"
-              class="project__sample__inter"
-            />
+            <picture>
+              <source
+                media="(max-width: 767px)"
+                srcset="resources/project__inter__mobile__2.png"
+              />
+              <source
+                media="(max-width: 1199px)"
+                srcset="resources/project__inter__tablet__2.png"
+              />
+              <img
+                src="resources/project__inter__2.png"
+                class="project__sample__inter"
+              />
+            </picture>
             <p class="project__sample__descript">
               ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023
             </p>
@@ -80,10 +101,20 @@
           </li>
 
           <li class="project__sample">
-            <img
-              src="resources/project__inter__3.png"
-              class="project__sample__inter"
-            />
+            <picture>
+              <source
+                media="(max-width: 767px)"
+                srcset="resources/project__inter__mobile__3.png"
+              />
+              <source
+                media="(max-width: 1199px)"
+                srcset="resources/project__inter__tablet__3.png"
+              />
+              <img
+                src="resources/project__inter__3.png"
+                class="project__sample__inter"
+              />
+            </picture>
             <p class="project__sample__descript">
               ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022
             </p>
