@@ -218,7 +218,6 @@ ul {
 .service__sample__img__3,
 .service__sample__img__4 {
   margin-bottom: 25px;
-  width: 569.5px;
   height: 388.03px;
   position: relative;
   background-image: url("../resources/services__sample__1.png");
@@ -373,7 +372,8 @@ ul {
     font-size: 50px;
   }
 
-  .container {
+  .container,
+  .services {
     width: 100%;
     margin-right: 0;
     padding-bottom: 100px;
@@ -390,6 +390,10 @@ ul {
 
   .about-text {
     bottom: 30px;
+  }
+
+  h2 {
+    margin-bottom: 30px;
   }
 
   .description {
@@ -428,6 +432,41 @@ ul {
   .all_samples {
     width: 100%;
   }
+
+  .services {
+    padding-bottom: 120px;
+  }
+
+  ul {
+    row-gap: 80px;
+  }
+
+  .services__text {
+    padding-top: 151px;
+  }
+
+  .service__sample {
+    width: calc(50% - 5px);
+  }
+
+  .service__sample__img__1,
+  .service__sample__img__2,
+  .service__sample__img__3,
+  .service__sample__img__4 {
+    height: 315px;
+    margin-bottom: 15px;
+  }
+
+  .service__sample__text {
+    margin-left: 32px;
+    top: 31px;
+    font-size: 20px;
+  }
+
+  .service__sample__descript {
+    font-size: 25px;
+    line-height: 34px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -464,7 +503,8 @@ ul {
     line-height: 19px;
   }
 
-  .container {
+  .container,
+  .services {
     padding-bottom: 80px;
     padding-left: 13px;
     padding-right: 12px;
@@ -511,5 +551,50 @@ ul {
     height: 100px;
     font-size: 22px;
     line-height: 100px;
+  }
+
+  .services {
+    padding-bottom: 80px;
+  }
+
+  ul {
+    row-gap: 60px;
+  }
+
+  .services__text {
+    padding-top: 80px;
+  }
+
+  .service__sample {
+    width: 100%;
+  }
+
+  .service__sample__img__1,
+  .service__sample__img__2,
+  .service__sample__img__3,
+  .service__sample__img__4 {
+    height: 240px;
+    margin-bottom: 10px;
+  }
+
+  .service__sample__text {
+    margin-left: 24px;
+    top: 24px;
+    width: 124px;
+    font-size: 14px;
+    line-height: 30px;
+  }
+
+  .service__sample:nth-last-of-type(2) .service__sample__text {
+    width: 148px;
+  }
+
+  .service__sample:last-of-type .service__sample__text {
+    width: 160px;
+  }
+
+  .service__sample__descript {
+    font-size: 18px;
+    line-height: 25px;
   }
 }
