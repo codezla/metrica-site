@@ -21,6 +21,7 @@ div {
 
 .container,
 .services,
+.feedback,
 .bedroom__container,
 .nav__container,
 .contacts__container {
@@ -117,7 +118,8 @@ h2 {
   margin-bottom: 88px;
 }
 
-.description {
+.description,
+.feedback__sample__headline {
   margin-bottom: 30px;
   width: 1075px;
   font-size: 46px;
@@ -259,6 +261,38 @@ ul {
 
 .service__sample__descript {
   padding-bottom: 0;
+}
+
+.feedback {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.feedback ul {
+  justify-content: start;
+  column-gap: 49px;
+}
+
+.feedback__sample {
+  width: 529px;
+}
+
+.feedback__sample:nth-last-child(1) {
+  width: 861px;
+}
+
+.feedback__sample__headline {
+  margin-bottom: 13px;
+}
+
+.feedback__sample__comment__1,
+.feedback__sample__comment__2 {
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.feedback__sample__comment__1 {
+  margin-bottom: 20px;
 }
 
 .bedroom__container {
