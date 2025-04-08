@@ -118,8 +118,7 @@ h2 {
   margin-bottom: 88px;
 }
 
-.description,
-.feedback__sample__headline {
+.description {
   margin-bottom: 30px;
   width: 1075px;
   font-size: 46px;
@@ -200,7 +199,8 @@ h2 {
   padding-bottom: 152px;
 }
 
-ul {
+.services ul,
+.feedback ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -283,6 +283,9 @@ ul {
 
 .feedback__sample__headline {
   margin-bottom: 13px;
+  font-size: 46px;
+  line-height: 61px;
+  letter-spacing: -0.039em;
 }
 
 .feedback__sample__comment__1,
@@ -407,7 +410,8 @@ ul {
   }
 
   .container,
-  .services {
+  .services,
+  .feedback {
     width: 100%;
     margin-right: 0;
     padding-bottom: 100px;
@@ -501,6 +505,40 @@ ul {
     font-size: 25px;
     line-height: 34px;
   }
+
+  .feedback {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .feedback ul {
+    justify-content: space-between;
+    column-gap: 0;
+  }
+
+  .feedback__sample {
+    width: calc(50% - 5px);
+  }
+
+  .feedback__sample:nth-last-child(1) {
+    width: 694px;
+  }
+
+  .feedback__sample__headline {
+    font-size: 35px;
+    line-height: 48px;
+    margin-bottom: 25px;
+  }
+
+  .feedback__sample__comment__1,
+  .feedback__sample__comment__2 {
+    font-size: 20px;
+    line-height: 27px;
+  }
+
+  .feedback__sample__comment__1 {
+    margin-bottom: 15px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -538,7 +576,8 @@ ul {
   }
 
   .container,
-  .services {
+  .services,
+  .feedback {
     padding-bottom: 80px;
     padding-left: 13px;
     padding-right: 12px;
@@ -630,5 +669,30 @@ ul {
   .service__sample__descript {
     font-size: 18px;
     line-height: 25px;
+  }
+
+  .feedback {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .feedback__sample {
+    width: 100%;
+  }
+
+  .feedback__sample__headline {
+    margin-bottom: 13px;
+    font-size: 25px;
+    line-height: 34px;
+  }
+
+  .feedback__sample__comment__1,
+  .feedback__sample__comment__2 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .feedback__sample__comment__1 {
+    margin-bottom: 15px;
   }
 }
