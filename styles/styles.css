@@ -4,7 +4,7 @@ html {
 
 body,
 .btn,
-.all_samples {
+.projects_btn {
   font-family: "Manrope", sans-serif;
   width: 100%;
   background-color: #f5f5f5;
@@ -166,7 +166,7 @@ h2 {
   text-decoration: none;
 }
 
-.all_samples {
+.projects_btn {
   display: block;
   height: 153px;
   width: 1150px;
@@ -182,13 +182,13 @@ h2 {
   cursor: pointer;
 }
 
-.container {
-  padding-bottom: 150px;
-}
-
-.all_samples:hover {
+.projects_btn:hover {
   background-color: #ad1818;
   color: #ffffff;
+}
+
+.container {
+  padding-bottom: 150px;
 }
 
 .services,
@@ -205,6 +205,10 @@ h2 {
   flex-wrap: wrap;
   justify-content: space-between;
   row-gap: 80.7px;
+}
+
+.services ul {
+  margin-bottom: 104px;
 }
 
 .service__sample {
@@ -263,6 +267,11 @@ h2 {
   padding-bottom: 0;
 }
 
+.services_btn {
+  color: #ffffff;
+  background-color: #ad1818;
+}
+
 .feedback {
   padding-top: 150px;
   padding-bottom: 150px;
@@ -288,14 +297,9 @@ h2 {
   letter-spacing: -0.039em;
 }
 
-.feedback__sample__comment__1,
-.feedback__sample__comment__2 {
+.feedback__sample__comment {
   font-size: 22px;
   line-height: 30px;
-}
-
-.feedback__sample__comment__1 {
-  margin-bottom: 20px;
 }
 
 .bedroom__container {
@@ -467,7 +471,7 @@ h2 {
     width: 100%;
   }
 
-  .all_samples {
+  .projects_btn {
     width: 100%;
   }
 
@@ -530,14 +534,9 @@ h2 {
     margin-bottom: 25px;
   }
 
-  .feedback__sample__comment__1,
-  .feedback__sample__comment__2 {
+  .feedback__sample__comment {
     font-size: 20px;
     line-height: 27px;
-  }
-
-  .feedback__sample__comment__1 {
-    margin-bottom: 15px;
   }
 }
 
@@ -620,7 +619,7 @@ h2 {
     line-height: 22px;
   }
 
-  .all_samples {
+  .projects_btn {
     height: 100px;
     font-size: 22px;
     line-height: 100px;
@@ -686,13 +685,8 @@ h2 {
     line-height: 34px;
   }
 
-  .feedback__sample__comment__1,
-  .feedback__sample__comment__2 {
+  .feedback__sample__comment {
     font-size: 16px;
     line-height: 22px;
-  }
-
-  .feedback__sample__comment__1 {
-    margin-bottom: 15px;
   }
 }
