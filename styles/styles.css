@@ -1,6 +1,3 @@
-@import "tablet.css";
-@import "mobile.css";
-
 html {
   scroll-behavior: smooth;
 }
