@@ -4,7 +4,7 @@ html {
 
 body,
 .btn,
-.projects_btn {
+.projects__btn {
   font-family: "Manrope", sans-serif;
   width: 100%;
   background-color: #f5f5f5;
@@ -75,8 +75,8 @@ li {
   text-decoration: underline;
 }
 
-#projects_view,
-#aboutus_view {
+#projects__view,
+#aboutus__view {
   scroll-margin-top: 15vh;
 }
 
@@ -99,7 +99,7 @@ h1 {
   background-size: cover;
 }
 
-.about-text {
+.about__text {
   width: 430px;
   color: #ffffff;
   position: absolute;
@@ -166,7 +166,7 @@ h2 {
   text-decoration: none;
 }
 
-.projects_btn {
+.projects__btn {
   display: block;
   height: 153px;
   width: 1150px;
@@ -182,7 +182,7 @@ h2 {
   cursor: pointer;
 }
 
-.projects_btn:hover {
+.projects__btn:hover {
   background-color: #ad1818;
   color: #ffffff;
 }
@@ -215,7 +215,7 @@ h2 {
   width: calc(50% - 5.5px);
 }
 
-.services__text {
+.services__title {
   padding-top: 155px;
 }
 
@@ -267,7 +267,7 @@ h2 {
   padding-bottom: 0;
 }
 
-.services_btn {
+.services__btn {
   color: #ffffff;
   background-color: #ad1818;
 }
@@ -430,7 +430,7 @@ h2 {
     background-position: 50%;
   }
 
-  .about-text {
+  .about__text {
     bottom: 30px;
   }
 
@@ -471,7 +471,7 @@ h2 {
     width: 100%;
   }
 
-  .projects_btn {
+  .projects__btn {
     width: 100%;
   }
 
@@ -483,7 +483,7 @@ h2 {
     row-gap: 80px;
   }
 
-  .services__text {
+  .services__title {
     padding-top: 151px;
   }
 
@@ -560,7 +560,7 @@ h2 {
     background-position: 40%;
   }
 
-  .about-text {
+  .about__text {
     bottom: 15px;
     padding-left: 15px;
     width: 90%;
@@ -619,7 +619,7 @@ h2 {
     line-height: 22px;
   }
 
-  .projects_btn {
+  .projects__btn {
     height: 100px;
     font-size: 22px;
     line-height: 100px;
@@ -633,7 +633,7 @@ h2 {
     row-gap: 60px;
   }
 
-  .services__text {
+  .services__title {
     padding-top: 80px;
   }
 
