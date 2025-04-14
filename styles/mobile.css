@@ -1,0 +1,150 @@
+@media (max-width: 767px) {
+  .nav__container {
+    padding-left: 13px;
+    padding-right: 12px;
+  }
+
+  .nav__container h1 {
+    padding-bottom: 25px;
+    width: 100%;
+    font-size: 30px;
+    line-height: 31.62px;
+  }
+
+  .about {
+    height: 304px;
+    margin-bottom: 80px;
+    background-image: url("../resources/inter__mobile.png");
+    background-position: 40%;
+  }
+
+  .about__text {
+    bottom: 15px;
+    padding-left: 15px;
+    width: 90%;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  h2 {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .container,
+  .services,
+  .feedback {
+    padding-bottom: 80px;
+    padding-left: 13px;
+    padding-right: 12px;
+  }
+
+  .description {
+    width: 100%;
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .btn {
+    margin-bottom: 80px;
+    width: 194px;
+    height: 51px;
+    font-size: 16px;
+    line-height: 51px;
+  }
+
+  .project__sample {
+    margin-bottom: 49px;
+  }
+
+  .project__sample:nth-last-child(1) {
+    margin-bottom: 60px;
+  }
+
+  .project__sample__inter {
+    padding-bottom: 20px;
+    height: 250px;
+  }
+
+  .project__sample__descript {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .project__sample__link {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .projects__btn {
+    height: 100px;
+    font-size: 22px;
+    line-height: 100px;
+  }
+
+  .services {
+    padding-bottom: 80px;
+  }
+
+  ul {
+    row-gap: 60px;
+  }
+
+  .services__title {
+    padding-top: 80px;
+  }
+
+  .service__sample {
+    width: 100%;
+  }
+
+  .service__sample__img__1,
+  .service__sample__img__2,
+  .service__sample__img__3,
+  .service__sample__img__4 {
+    height: 240px;
+    margin-bottom: 10px;
+  }
+
+  .service__sample__text {
+    margin-left: 24px;
+    top: 24px;
+    width: 124px;
+    font-size: 14px;
+    line-height: 30px;
+  }
+
+  .service__sample:nth-last-of-type(2) .service__sample__text {
+    width: 148px;
+  }
+
+  .service__sample:last-of-type .service__sample__text {
+    width: 160px;
+  }
+
+  .service__sample__descript {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .feedback {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .feedback__sample {
+    width: 100%;
+  }
+
+  .feedback__sample__headline {
+    margin-bottom: 13px;
+    font-size: 25px;
+    line-height: 34px;
+  }
+
+  .feedback__sample__comment {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}

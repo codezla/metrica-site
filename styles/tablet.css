@@ -1,0 +1,140 @@
+@media (max-width: 1199px) {
+  .nav__container {
+    width: 100%;
+    min-width: 100%;
+    margin-right: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .nav__container h1 {
+    width: 802px;
+    font-size: 50px;
+  }
+
+  .container,
+  .services,
+  .feedback {
+    width: 100%;
+    margin-right: 0;
+    padding-bottom: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .about {
+    margin-bottom: 120px;
+    width: 100%;
+    height: 400px;
+    background-position: 50%;
+  }
+
+  .about__text {
+    bottom: 30px;
+  }
+
+  h2 {
+    margin-bottom: 30px;
+  }
+
+  .description {
+    width: 690px;
+    font-size: 35px;
+    line-height: 48px;
+  }
+
+  .btn {
+    margin-bottom: 120px;
+  }
+
+  .project__sample {
+    margin-bottom: 80px;
+  }
+
+  .project__sample:nth-last-child(1) {
+    margin-bottom: 100px;
+  }
+
+  .project__sample__inter {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .project__sample__descript {
+    padding-bottom: 10px;
+    font-size: 25px;
+    line-height: 34px;
+  }
+
+  .project__sample {
+    width: 100%;
+  }
+
+  .projects__btn {
+    width: 100%;
+  }
+
+  .services {
+    padding-bottom: 120px;
+  }
+
+  ul {
+    row-gap: 80px;
+  }
+
+  .services__title {
+    padding-top: 151px;
+  }
+
+  .service__sample {
+    width: calc(50% - 5px);
+  }
+
+  .service__sample__img__1,
+  .service__sample__img__2,
+  .service__sample__img__3,
+  .service__sample__img__4 {
+    height: 315px;
+    margin-bottom: 15px;
+  }
+
+  .service__sample__text {
+    margin-left: 32px;
+    top: 31px;
+    font-size: 20px;
+  }
+
+  .service__sample__descript {
+    font-size: 25px;
+    line-height: 34px;
+  }
+
+  .feedback {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .feedback ul {
+    justify-content: space-between;
+    column-gap: 0;
+  }
+
+  .feedback__sample {
+    width: calc(50% - 5px);
+  }
+
+  .feedback__sample:nth-last-child(1) {
+    width: 694px;
+  }
+
+  .feedback__sample__headline {
+    font-size: 35px;
+    line-height: 48px;
+    margin-bottom: 25px;
+  }
+
+  .feedback__sample__comment {
+    font-size: 20px;
+    line-height: 27px;
+  }
+}
