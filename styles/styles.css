@@ -150,7 +150,8 @@ h2 {
 
 .project__sample__descript,
 .service__sample__descript,
-.bedroom__descript {
+.bedroom__descript,
+.gallery__slide__descript {
   padding-bottom: 15px;
   font-size: 30px;
   font-weight: 400;
@@ -397,4 +398,117 @@ h2 {
   font-size: 20px;
   line-height: 27px;
   opacity: 0.5;
+}
+
+.gallery {
+  margin: 0 auto;
+  width: 1400px;
+  position: relative;
+}
+
+.gallery__title__wrapper {
+  position: absolute;
+  z-index: 2;
+  top: 67px;
+}
+
+.title__container {
+  margin-left: 124px;
+}
+
+.gallery__title {
+  margin-bottom: 0;
+  font-size: 22px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.gallery__slides {
+  position: relative;
+  height: 717px;
+  width: 1400px;
+}
+
+.gallery__slide {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+}
+
+.gallery__slide__active {
+  opacity: 1;
+}
+
+.project__slide {
+  position: relative;
+  height: 100%;
+  background-size: contain;
+}
+
+.project__slide__forest {
+  background-image: url("../resources/gallery__img__1.png");
+}
+
+.project__slide__beacon {
+  background-image: url("../resources/gallery__img__2.png");
+}
+
+.project__slide__private {
+  background-image: url("../resources/gallery__img__3.png");
+}
+
+.project__slide__wind {
+  background-image: url("../resources/gallery__img__4.png");
+}
+
+.gallery__slide__descript {
+  position: absolute;
+  top: 575px;
+  left: 125px;
+  width: 443px;
+  color: #ffffff;
+}
+
+.gallery__controls__wrapper {
+  position: absolute;
+  z-index: 3;
+  bottom: 162px;
+}
+
+.controls__container {
+  padding-left: 115px;
+}
+
+.gallery__controls {
+  display: flex;
+  column-gap: 14px;
+}
+
+.gallery__control__prev {
+  width: 40px;
+  height: 40px;
+  background-image: url("../resources/gallery__arrow__prev.png");
+}
+
+.gallery__control__next {
+  width: 40px;
+  height: 40px;
+  background-image: url("../resources/gallery__arrow__next.png");
+}
+
+.gallery__control__prev,
+.gallery__control__next {
+  background-size: contain;
+  cursor: pointer;
+}
+
+.gallery__control__prev:hover {
+  background-image: url("../resources/gallery__arrow__prev__hover.png");
+}
+
+.gallery__control__next:hover {
+  background-image: url("../resources/gallery__arrow__next__hover.png");
 }
