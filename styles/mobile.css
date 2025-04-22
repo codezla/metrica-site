@@ -147,4 +147,44 @@
     font-size: 16px;
     line-height: 22px;
   }
+
+  .gallery__title__wrapper {
+    top: 61px;
+  }
+
+  .title__container {
+    margin-left: 12px;
+  }
+
+  .gallery__title {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .gallery__slides {
+    height: 408px;
+  }
+
+  .gallery__slide__descript {
+    top: 296px;
+    left: 13px;
+    width: 287px;
+    font-size: 19.01px;
+    line-height: 26px;
+  }
+
+  .gallery__controls__wrapper {
+    bottom: 189px;
+    width: 100%;
+  }
+
+  .controls__container {
+    padding-left: 7px;
+    padding-right: 5px;
+    width: 100%;
+  }
+
+  .gallery__controls {
+    justify-content: space-between;
+  }
 }
