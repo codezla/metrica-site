@@ -187,4 +187,36 @@
   .gallery__controls {
     justify-content: space-between;
   }
+
+  .contacts__container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .contacts__title {
+    margin-bottom: 58px;
+  }
+
+  .contacts {
+    flex-wrap: wrap;
+    row-gap: 58px;
+  }
+
+  .contact {
+    width: 100%;
+  }
+
+  .phone__contact:after {
+    top: -46px;
+  }
+
+  .mail__contact:after {
+    top: -58px;
+  }
+
+  .phone__contact__link,
+  .mail__contact__link {
+    font-size: 35px;
+    line-height: 45.62px;
+  }
 }

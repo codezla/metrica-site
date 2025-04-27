@@ -14,7 +14,8 @@
 
   .container,
   .services,
-  .feedback {
+  .feedback,
+  .contacts__container {
     box-sizing: border-box;
     width: 100%;
     margin-right: 0;
@@ -175,5 +176,27 @@
 
   .controls__container {
     padding-left: 41px;
+  }
+
+  .contacts__container {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .contacts__title {
+    margin-bottom: 74px;
+  }
+
+  .phone__contact:after {
+    top: -53px;
+  }
+
+  .mail__contact:after {
+    top: -49px;
+  }
+
+  .phone__contact__link,
+  .mail__contact__link {
+    font-size: 45px;
   }
 }

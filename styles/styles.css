@@ -425,15 +425,16 @@ h2 {
 
 .contacts__container {
   width: 1400px;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 .contacts__title {
-  padding-top: 150px;
   margin-bottom: 75px;
+  line-height: 25px;
 }
 
 .contacts {
-  padding-bottom: 150px;
   display: flex;
   column-gap: 104px;
 }
@@ -448,7 +449,8 @@ h2 {
   content: "";
   display: block;
   background-image: url("../resources/outline__phone.svg");
-  top: -26px;
+  top: -54px;
+  left: -5px;
   width: 24px;
   height: 24px;
   background-size: cover;
@@ -460,7 +462,7 @@ h2 {
   content: "";
   display: block;
   background-image: url("../resources/outline__mail.svg");
-  top: -26px;
+  top: -50px;
   width: 24px;
   height: 24px;
   background-size: cover;
