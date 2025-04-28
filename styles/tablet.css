@@ -199,4 +199,8 @@
   .mail__contact__link {
     font-size: 45px;
   }
+
+  .footer {
+    width: 100%;
+  }
 }
