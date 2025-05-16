@@ -111,6 +111,19 @@
     line-height: 34px;
   }
 
+  .popup {
+    padding-left: 92px;
+    padding-right: 91px;
+  }
+
+  .popup__content {
+    width: 100%;
+  }
+
+  .popup__send__btn {
+    width: 100%;
+  }
+
   .feedback {
     padding-top: 120px;
     padding-bottom: 120px;
