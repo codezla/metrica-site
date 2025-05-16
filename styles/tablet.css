@@ -120,6 +120,10 @@
     width: 100%;
   }
 
+  .popup__close__btn {
+    right: 44px;
+  }
+
   .popup__send__btn {
     width: 100%;
   }
