@@ -11,6 +11,10 @@
     line-height: 31.62px;
   }
 
+  .burger__content {
+    width: 50%;
+  }
+
   .about {
     height: 304px;
     margin-bottom: 80px;

@@ -12,6 +12,27 @@
     font-size: 50px;
   }
 
+  .nav__links {
+    display: none;
+  }
+
+  .burger__btn {
+    position: absolute;
+    display: block;
+    right: 12px;
+    width: 38px;
+    height: 6.5px;
+    background-size: cover;
+    background-image: url(../resources/burger-img.svg);
+  }
+
+  .burger-btn_open {
+    width: 34px;
+    height: 34px;
+    z-index: 1;
+    background-image: url(../resources/burger__close__img.svg);
+  }
+
   .container,
   .services,
   .feedback,

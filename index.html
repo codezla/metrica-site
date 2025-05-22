@@ -30,17 +30,20 @@
 
   <body>
     <header class="nav__container">
-      <!--<a href="" class="link__logo">
-        <img src="resources/metrica__logo.png" alt="" class="metrica__logo" />
-      </a>
-      <nav class="nav__links">
-        <ul>
-          <li><a href="" class="nav__link">О НАС</a></li>
-          <li><a href="#projects__view" class="nav__link">ПРОЕКТЫ</a></li>
-          <li><a href="#services__view" class="nav__link">УСЛУГИ</a></li>
-          <li><a href="#contacts__view" class="nav__link">КОНТАКТЫ</a></li>
-        </ul>
-      </nav>-->
+      <div class="nav__inner">
+        <a href="" class="link__logo">
+          <img src="resources/metrica__logo.png" alt="" class="metrica__logo" />
+        </a>
+        <nav>
+          <ul class="nav__links">
+            <li><a href="" class="nav__link">О НАС</a></li>
+            <li><a href="#projects__view" class="nav__link">ПРОЕКТЫ</a></li>
+            <li><a href="#services__view" class="nav__link">УСЛУГИ</a></li>
+            <li><a href="#contacts__view" class="nav__link">КОНТАКТЫ</a></li>
+          </ul>
+        </nav>
+        <div class="js-burger-btn burger__btn"></div>
+      </div>
       <h1 id="aboutus__view">
         Современные и стильные интерьеры для комфортной жизни
       </h1>
@@ -321,7 +324,29 @@
       </div>
     </footer>
 
+    <div class="js-burger burger">
+      <div class="js-burger__content burger__content">
+        <div class="burger__logo"></div>
+        <nav class="burger__nav">
+          <a href="" class="nav__link">О НАС</a>
+          <a href="#projects__view" class="nav__link">ПРОЕКТЫ</a>
+          <a href="#services__view" class="nav__link">УСЛУГИ</a>
+          <a href="#contacts__view" class="nav__link">КОНТАКТЫ</a>
+        </nav>
+        <div class="burger__contacts">
+          <p class="burger__contacts__text">для связи:</p>
+          <a class="burger__phone__link" href="tel:+7935 895-45-35"
+            >+7 935 895-45-35</a
+          >
+          <a class="burger__mail__link" href="mailto:hello@mail.com"
+            >hello@mail.com</a
+          >
+        </div>
+      </div>
+    </div>
+
     <script src="gallery.js"></script>
     <script src="popup.js"></script>
+    <script src="burger.js"></script>
   </body>
 </html>
