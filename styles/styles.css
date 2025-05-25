@@ -83,10 +83,10 @@ div {
   height: 100%;
   display: flex;
   justify-content: end;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.9);
   opacity: 0;
   visibility: hidden;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
 }
 
 .burger__open {
@@ -95,11 +95,19 @@ div {
 }
 
 .burger__content {
-  width: 30%;
+  width: 274px;
   height: 100%;
-  background-color: #ffffff;
+  overflow-y: auto;
   padding-left: 30px;
   padding-top: 80px;
+  background-color: #ffffff;
+  transition: transform 0.3s linear;
+  transform: translateX(100%);
+}
+
+.burger__open,
+.burger__content {
+  transform: translateX(0);
 }
 
 .burger__logo {
@@ -395,7 +403,7 @@ h2 {
   line-height: 25px;
 }
 
-.input__wrapper {
+.order__form {
   margin-bottom: 80.5px;
   display: flex;
   flex-direction: column;
