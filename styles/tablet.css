@@ -12,6 +12,10 @@
     font-size: 50px;
   }
 
+  .nav__inner {
+    margin-bottom: 74px;
+  }
+
   .nav__links {
     display: none;
   }

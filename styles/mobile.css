@@ -11,6 +11,10 @@
     line-height: 31.62px;
   }
 
+  .nav__inner {
+    margin-bottom: 61px;
+  }
+
   .about {
     height: 304px;
     margin-bottom: 80px;
